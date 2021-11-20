@@ -22,4 +22,8 @@ public class Greet {
     public String hi(){
         return  "Merry Christmas!";
     }
+	    @RequestMapping("/hey")
+    public String hi(){
+        return  "hey!";
+    }
 }
